@@ -33,10 +33,27 @@
         >
       </nav>
     </header>
-    <!-- main container -->
-    <div class="container">
+    <!-- main container - landing page, removed after click 'start' btn-->
+    <main class="main" id="main">
+      <section class="start-section wrapper" id="start-section">
+        <h1 class="title">The code quiz challenge!</h1>
+        <p>
+          Try to answer the following code-related questions within the time
+          limit.
+        </p>
+        <p>
+          Keep in mind that incorrect answers will penalize your score by 5
+          seconds!
+        </p>
+        <p>Have fun!</p>
+        <div class="start">
+          <button class="startbtn start-btn" id="start-btn">Start</button>
+        </div>
+      </section>
+    </main>
+    <!-- <div class="container">
       <div class="quiz-box" id="quiz-box">
-        <h1>Code Quiz</h1>
+        <h2>Code Quiz</h2>
         <div class="quiz-header">
           <p id="question-progress">Question x of y</p>
           <p id="timer">Time</p>
@@ -48,12 +65,38 @@
           <button class="btn" id="btn-c">C. <span id="choice-c"></span></button>
           <button class="btn" id="btn-d">D. <span id="choice-d"></span></button>
         </div>
-        <hr />
+        <hr class="hr" />
         <footer>
           <p>Kate - Web developer</p>
-        </footer>
+        </footer> -->
       </div>
     </div>
+    <!-- footer section -->
+    <footer class="main-footer" id="main-footer">
+      <div class="footer-container box-row">
+        <div class="footer-textbox">
+          <a
+            class="contact"
+            id="gh-profile"
+            href="https://github.com/katarzynajk"
+            target="_blank"
+          >
+            <i class="uil uil-github-alt"></i>
+            GitHub Profile!
+          </a>
+          <a
+            class="contact"
+            id="email"
+            href="mailto:jarominyanni@gmail.com"
+            target="_blank"
+          >
+            <i class="uil uil-envelope-edit"></i>
+            Email me!
+          </a>
+        </div>
+        <div class="footer-text">&copy;2022 - Kate J-K</div>
+      </div>
+    </footer>
     <script src="./assets/js/script.js"></script>
   </body>
 </html>
