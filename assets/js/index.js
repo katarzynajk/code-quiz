@@ -1,5 +1,38 @@
 // global declarations
-const questions = [];
+// questions
+const questions = [
+  {
+    question1: "Inside which HTML element do we put the JavaScript?",
+    options: ["<js>", "<javascript>", "<scripting>", "<script>"],
+    correctIndex: 3,
+  },
+  {
+    question2: "Which event occurs when the user clicks on an HTML element?",
+    options: ["onclick", "onchange", "onmouseover", "onmouseclick"],
+    correctIndex: 0,
+  },
+  {
+    question3: "Commonly used data types DO NOT include:",
+    options: ["strings", "booleans", "alerts", "numbers"],
+    correctIndex: 2,
+  },
+  {
+    question4: "How do you create a function in JavaScrip",
+    options: [
+      "function = myFunction()",
+      "function myFunction()",
+      "function:myFunction()",
+      "createMyFunction()",
+    ],
+    correctIndex: 1,
+  },
+  {
+    question5:
+      "Which element is responsible for introducing an empty line in HTML?",
+    options: ["<pre>", "<b>", "<br>", "<a>"],
+    correctIndex: 1,
+  },
+];
 let questionIndex = 0;
 let timerValue = 10 * questions.length;
 let quizComplete = false;
